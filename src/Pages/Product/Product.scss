@@ -1,0 +1,105 @@
+.product-wrapper {
+
+    .product-header {
+        display: flex;
+
+        img {
+            width: 150px;
+            border: 1px solid #cfcfcf;
+            border-radius: 10px;
+            padding: 22px;
+            box-shadow: 1px 1px 10px #cfcfcf;
+        }
+
+        .content {
+            width: 100%;
+            padding-left: 15px;
+
+            h3 {
+                margin-top: 0;
+            }
+
+            table {
+                width: 100%;
+
+                th,
+                td {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+.product-form {
+    max-width: 600px;
+    margin: auto;
+
+    h2 {
+        margin: 30px 0;
+    }
+
+    .p-calendar,
+    .p-inputnumber {
+        width: 100%;
+    }
+
+
+
+    .brand-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        list-style: none;
+        padding: 0;
+        margin: 15px 0 0 0;
+        column-gap: 15px;
+
+        li {
+            img {
+                max-width: 100%;
+                height: auto;
+                box-shadow: 1px 1px 10px #cfcfcf;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .checkbox-field-wrapper {
+        padding: 30px 0;
+    }
+
+    .input-feild-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 15px;
+        margin-bottom: 30px;
+
+        .p-inputtext {
+            margin: 0;
+            width: 100%;
+        }
+    }
+
+    .save {
+        width: 100%;
+    }
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#table-header {
+
+    th,
+    td {
+        width: 16%;
+    }
+}

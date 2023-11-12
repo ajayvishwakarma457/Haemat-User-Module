@@ -1,0 +1,19 @@
+h1 {
+    color: #000;
+}
+
+.p-button.p-button-success,
+.p-buttonset.p-button-success>.p-button,
+.p-splitbutton.p-button-success>.p-button,
+.p-fileupload-choose.p-button-success {
+    background: #22C55E !important;
+    border: 1px solid #22C55E !important;
+}
+
+.p-button.p-button-warning,
+.p-buttonset.p-button-warning>.p-button,
+.p-splitbutton.p-button-warning>.p-button,
+.p-fileupload-choose.p-button-warning {
+    background: #F59E0B !important;
+    border: 1px solid #F59E0B !important;
+}

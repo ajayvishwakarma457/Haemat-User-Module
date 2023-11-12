@@ -1,0 +1,14 @@
+
+
+@mixin boxShadow($x, $y, $z, $val) {
+    box-shadow: $x $y $z $val;
+    -moz-box-shadow: $x $y $z $val;
+    -webkit-box-shadow: $x $y $z $val;
+}
+
+@mixin noBoxShadow() {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+

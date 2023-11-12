@@ -1,0 +1,52 @@
+
+
+.thank-form {
+    max-width: 600px;
+    margin: auto;
+
+    h2 {
+        margin: 30px 0;
+    }
+
+    .p-calendar {
+        width: 100%;
+    }
+
+    .brand-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        list-style: none;
+        padding: 0;
+        margin: 15px 0 0 0;
+        column-gap: 15px;
+
+        li {
+            img {
+                max-width: 100%;
+                height: auto;
+                box-shadow: 1px 1px 10px #cfcfcf;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .checkbox-field-wrapper {
+        padding: 30px 0;
+    }
+
+    .input-feild-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 15px;
+        margin-bottom: 30px;
+
+        .p-inputtext {
+            margin: 0;
+            width: 100%;
+        }
+    }
+
+    .save {
+        width: 100%;
+    }
+}

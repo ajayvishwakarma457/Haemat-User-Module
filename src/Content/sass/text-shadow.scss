@@ -1,0 +1,6 @@
+
+@mixin textShadow($x, $y, $z, $val) {
+    text-shadow: $x $y $z $val;
+    -moz-text-shadow: $x $y $z $val;
+    -webkit-text-shadow: $x $y $z $val;
+}

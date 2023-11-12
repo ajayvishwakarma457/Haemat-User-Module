@@ -1,0 +1,11 @@
+h2 {
+    margin-top: 0;
+}
+
+.action-btn {
+    display: flex;
+}
+
+.action-btn>button {
+    margin-right: 15px;
+}
